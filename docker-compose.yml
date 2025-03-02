@@ -1,0 +1,7 @@
+services:
+  zerotrust:
+    build: infra/docker/zerotrust
+    container_name: zerotrust
+    restart: always
+    environment:
+      - TOKEN=eyJhI...
